@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.bg-color {
+  background-image: linear-gradient(#f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.white-card {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10vh;
+  border-radius: 10px;
+}
+.toss-img {
+  height: 30vh;
+  width: 35vh;
+}
+.result {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.button-section {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  border-width: 0px;
+  background-color: #efa139;
+  font-size: 20px;
+  color: #a35200;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 2vh;
+}
+.paragraph {
+  font-size: 30px;
+  color: #334155;
+  margin-top: -2vh;
+}
+.heading {
+  color: #a35200;
+  font-size: 40px;
+  font-family: 'Roboto';
+}
